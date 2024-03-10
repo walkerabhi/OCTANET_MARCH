@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url(img/bg5.jpg);
+    background-image: url(bg5.jpg);
     background-repeat: no-repeat;
     background-size:100% 100%;
 
@@ -60,7 +60,7 @@ body {
   .navbar {
     overflow: hidden;
 
-     background-image: url(img/bg6.jpg);
+     background-image: url(bg6.jpg);
   }
   
   .navbar a {
