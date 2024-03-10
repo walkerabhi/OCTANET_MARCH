@@ -1,52 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaTask</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body >
-    
 
-    <div class="header">
-        <img src="logo.png" alt="" style="height: 10%; width: 16%; justify-content: center;">
-        
-        <h1 style="color: rgb(138, 0, 243); font-style: italic;">  Welcome to PIKSKART</h1>
-        <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(242, 242, 250);">pictures say more than words.</p>
+<body>
+  <div class="navbar">
+    <a class="active" href="#home">Home</a>
+    <a href="feature.html">Features</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <div class="search-container">
+      <input type="text" placeholder="Search.." class="search-input">
+      <button type="submit" class="search-button">Search</button>
     </div>
-    
-  <div class="nav">
-        <navbar>
-            <a href="home.html" class ="hi"> HOME </a>
-            <a href="home.html" class ="hi"> GALLERY </a>
-            <a href="home.html" class ="hi"> EXPLORE </a>
-            <a href="home.html" class ="hi"> ABOUT </a>
-        </navbar>
-
+  </div>
+  <div style="padding:16px">
+    <h1>Task Master</h1>
+    <p style="font-size: 22px; text-align: center;">Conquer your tasks with style and ease - The ultimate To-Do list
+      experience !</p>
+  </div>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="task-form">
+      <input type="text" id="new-task" placeholder="Add a new task">
+      <button onclick="addTask()">Add Task</button>
     </div>
-    <div >
-        <div class="buttons">
-            <a href="#" target="_blank"> <button>LOGIN</button> </a>
-           <a href="#"><button>SIGN UP</button>  </a>
-       </div>
+    <ul id="task-list"></ul>
+  </div>
+  <script src="script.js"></script>
 
-      
-      
-
-    </div>
-    
-    <section class="features">
-        <h2>Features</h2>
-        <ul>
-            <li>1.Responsive Design</li>
-            <li>2.Clean and Modern Layout</li>
-            <li>3.Easy to Customize</li>
-        </ul>
-    </section>
-
-    <footer>
-     <p class="f1"> contact us - pikskart97@gmail.com</p>
-    </footer>
 </body>
+
 </html>
